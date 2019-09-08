@@ -5,7 +5,7 @@ const cors = require('cors');
 const provider = require('./routes/provider.route'); // Imports routes for the products
 const app = express();
 
-//Set up mongoose connection
+//Set up mongoose connection.
 const mongoose = require('mongoose');
 let mongoDB =
   'mongodb+srv://test_user_1:password1234@providercluster-jq8c9.mongodb.net/test?retryWrites=true&w=majority';
