@@ -1,6 +1,6 @@
 ## Provider Service
 
-This application serves as the backend service for the provider directoy. It performs basic CRUD operations on providers.
+This application serves as the backend service for the provider directoy. It performs basic CRUD operations on providers. Providers are stored in remote MongoDB instance.
 
 There are five operations available for the service. Please see routes for more information on service URL's.
 
@@ -16,7 +16,7 @@ The provider directory runs on a client and backend application.
 
 To run the directory, both the client and this application need to be cloned.
 
-Once both are retrieved, run `npm start` on both.
+Once both are retrieved, run `node install;node app.js` on backend, then run `node install;npm start` on client.
 
 The port number on the client and backend service should be `3000` and `9000` respectively which is the default. Ensure the backend runs on port `9000`.
 
