@@ -9,8 +9,8 @@ let ProviderSchema = new Schema({
   // max length of email
   email_address: { type: String, required: true, max: 254 },
   // max length of 100 for specialty and practice name
-  specialty: { type: String, max: 100 },
-  practice_name: { type: String, max: 100 }
+  specialty: { type: String, max: 50 },
+  practice_name: { type: String, max: 50 }
 });
 
 // Export the model
